@@ -1,0 +1,23 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.canvasWrapper {
+  flex: 1;
+}
+
+.clear {
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #1da1f2;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: #1da1f2;
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  z-index: 1;
+  cursor: pointer;
+}
