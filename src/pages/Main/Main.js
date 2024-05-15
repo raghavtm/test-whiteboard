@@ -38,7 +38,7 @@ export default function Main() {
           >
             Fabric
           </button>
-          {/* <button
+          <button
             className={boardType === BOARD_TYPE.KONVA ? styles.selected : ""}
             onClick={() => setBoardType(BOARD_TYPE.KONVA)}
           >
@@ -49,7 +49,7 @@ export default function Main() {
             onClick={() => setBoardType(BOARD_TYPE.PAPERJS)}
           >
             PaperJS
-          </button> */}
+          </button>
           <button
             className={boardType === BOARD_TYPE.Custom ? styles.selected : ""}
             onClick={() => setBoardType(BOARD_TYPE.Custom)}
